@@ -1,0 +1,50 @@
+.Friend-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 300px;
+  min-height: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 30px;
+}
+
+.Friend-list-item {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 300px;
+  min-height: 65px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px -2px #000000;
+  overflow: hidden;
+  background-color: white;
+}
+
+.Status {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.Online {
+  background-color: forestgreen;
+}
+
+.Offline {
+  background-color: firebrick;
+}
+
+.Friend-list-avatar {
+  margin-left: 20px;
+}
+
+.Friend-list-name {
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 20px;
+}
