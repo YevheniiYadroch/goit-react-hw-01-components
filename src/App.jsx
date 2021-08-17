@@ -2,10 +2,10 @@ import Profile from "./Components/Profile/Profile";
 import Statistics from "./Components/Statistics/Statistics";
 import FriendsList from "./Components/FriendsList/FriendsList";
 import TransactionHistory from "./Components/TransactionHistory/TransactionHistory";
-import user from "./user.json";
-import statisticalData from "./statistical-data.json";
-import friends from "./friends.json";
-import transactions from "./transactions.json";
+import user from "./data/user.json";
+import statisticalData from "./data/statistical-data.json";
+import friends from "./data/friends.json";
+import transactions from "./data/transactions.json";
 import './App.css';
 
 function App() {
